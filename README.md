@@ -1,25 +1,25 @@
 People API (Node + MongoDB)
 
 ENV:
-  - MONGO_URI (optional, defaults to mongodb://localhost:27017/people_db)
+ - MONGO_URI (optional, defaults to mongodb://localhost:27017/people_db)
 
 Install:
 
-  npm install
+ *  npm install
 
 Run:
-  npm start
+ *   npm start
 
-  # or for dev
+ *   # or for dev
   
-  npm run dev
+ *   npm run dev
 
 API:
 
-  GET    /person
+   *  GET    /person
   
-  POST   /person    (body: { name, age, gender, mobile })
+  *   POST   /person    (body: { name, age, gender, mobile })
   
-  PUT    /person/:id
+  *  PUT    /person/:id
   
-  DELETE /person/:id
+  *  DELETE /person/:id
